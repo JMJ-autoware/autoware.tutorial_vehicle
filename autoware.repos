@@ -77,7 +77,7 @@ repositories:
   launcher/autoware_launch.tutorial_vehicle:
     type: git
     url: git@github.com:JMJ-autoware/autoware_launch.tutorial_vehicle.git
-    version: main
+    version: prac
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -99,7 +99,7 @@ repositories:
   sensor_kit/tutorial_vehicle_kit_launch:
     type: git
     url: git@github.com:JMJ-autoware/tutorial_vehicle_sensor_kit_launch.git
-    version: main
+    version: prac
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -112,7 +112,7 @@ repositories:
   vehicle/tutorial_vehicle_launch:
     type: git
     url: git@github.com:JMJ-autoware/tutorial_vehicle_launch.git
-    version: main
+    version: prac
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
@@ -121,4 +121,4 @@ repositories:
   param/tutorial_vehicle_individual_params:
     type: git
     url: git@github.com:JMJ-autoware/tutorial_vehicle_individual_params.git
-    version: main
+    version: prac
