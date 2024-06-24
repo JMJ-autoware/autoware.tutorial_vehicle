@@ -4,7 +4,7 @@ set -e
 exec 3>&1
 
 build_target() {
-  local regex='Failed *<* *(\w+)'
+  local regex='Failed +<+ +(\w+)'
   local target=$1
   local options=( "${@:2}" )
 
